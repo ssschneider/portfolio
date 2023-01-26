@@ -6,7 +6,7 @@ export const Wrapper = styled.section`
     gap: 4rem;
     justify-content: center;
     align-items: center;
-    margin: 13rem auto 0;
+    margin: 10rem auto 6rem;
 `
 
 export const Text = styled.p`

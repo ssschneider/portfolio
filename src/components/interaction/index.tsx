@@ -1,18 +1,17 @@
-import { Play } from "phosphor-react"
+import { Play, Alien } from "phosphor-react"
 import { Wrapper, Text, Btn } from "./styles"
 
 interface InteractionProps {
     text: string;
-    label: string;
-    icon: any;
+    label: any;
+    onClick?: () => void;
 }
 
-const Interaction = ({ text, label, icon }: InteractionProps) => {
+const Interaction = ({ text, label, onClick }: InteractionProps) => {
     return (
         <Wrapper>
             <Text>{text}</Text>
-            <Btn>
-                {<Play size={40} weight="bold"/>}
+            <Btn onClick={onClick}>
                 {label}
             </Btn>
         </Wrapper>
