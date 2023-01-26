@@ -1,6 +1,13 @@
+import { ProfilePhoto, Wrapper } from "./styles"
+import ProfilePicture from "../../assets/images/profile-picture.svg"
+import AboutMeText from "../../components/aboutMeText"
+
 const Sobre = () => {
     return (
-        <h1>Sobre</h1>
+        <Wrapper>
+            <ProfilePhoto src={ProfilePicture}/>
+            <AboutMeText />
+        </Wrapper>
     )
 }
 
