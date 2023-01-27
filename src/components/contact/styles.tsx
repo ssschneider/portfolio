@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    background-color: var(--blue);
+    background-color: #E6CA9E;
     box-shadow: var(--default-box-shadow);
     border: 5px solid #000;
     padding: 2.4rem 4.8rem;
@@ -14,9 +14,9 @@ export const Wrapper = styled.div`
     gap: 0.8rem;
     
     position: absolute;
-    bottom: -20rem;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -60%);
 
 `
 

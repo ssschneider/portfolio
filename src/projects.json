@@ -9,12 +9,44 @@
             "linkDeploy": "#"
         },
         {
-            "title": "Rastreador de Hábitos2",
-            "image": "https://github.com/ssschneider/habit-tracker-ignite/raw/main/assets/banner.svg",
-            "description": "Rastreador de Hábitos construído durante a NLW Setup na trilha Ignite. Nesse projeto contruímos todo o Back-end da aplicação, assim como toda a interface Web e Mobile.",
-            "stacks": "React, React Native, Typescript, ViteJS, Prisma, SQLite, TailwindCSS, Expo, Axios e Fastify",
-            "linkCode": "https://github.com/ssschneider/habit-tracker-ignite",
+            "title": "Portifólio",
+            "image": "#",
+            "description": "Portifólio pessoal, com design e cógido feitos por mim. Queria que, além de ser algo que me descrevesse, fugisse do padrão de cores fortes e escuras que geralmente são usadas.Explorei bastante ao Git e Figma ao desenvolver, propositalmente, ao longo de vários dias com o objetivo de simular o cotidiano do trabalho em uma empresa.",
+            "stacks": "React, Typescript, ViteJS, Styled-Components, React Router DOM",
+            "linkCode": "https://github.com/ssschneider/portfolio",
             "linkDeploy": "#"
+        },
+        {
+            "title": "Copa do Mundo Feminina",
+            "image": "https://github.com/ssschneider/wwc-2023/raw/main/public/banner-readme.png",
+            "description": "Landing page da Copa do Mundo Feminina 2023, com o objetivo de transmitir informações que considero relevantes, como um contexto geral do torneio, equipes que irão participar, estádios onde irão ocorrer os jogos e calendários, sendo um o oficial da FIFA e o outro que codei durante a NLW Copa, com horários do Brasil. O site é 100% em inglês.",
+            "stacks": "React, Javascript, Styled-Components, React Router DOM",
+            "linkCode": "https://github.com/ssschneider/wwc-2023",
+            "linkDeploy": "https://wwc-2023.vercel.app/"
+        },
+        {
+            "title": "Clone DIO",
+            "image": "https://github.com/ssschneider/clone-dio/raw/main/public/images/Screenshot_17.png",
+            "description": "Terceiro desafio proposto durante o Bootcamp Orange Tech+ da Digital Innovation One em parceria com o Banco Inter. Nos foi proposto que fizéssemos um clone da interface da DIO, exibindo a navegação com a Tela de Início, Tela de Cadastro, Tela de Login e Interface Logada. A nvegação conta também com mudanças em componentes comuns, como o Header, utilizado operadores ternários.",
+            "stacks": "React, Typescript, Styled-Components, React Router DOM e Axios",
+            "linkCode": "https://github.com/ssschneider/clone-dio",
+            "linkDeploy": "https://clone-dio-kappa.vercel.app/"
+        },
+        {
+            "title": "Validação de Login",
+            "image": "https://github.com/ssschneider/validacao-com-ts/raw/main/public/images/desktop.png",
+            "description": "Último desafio proposto durante o Bootcamp Orange Tech+ da Digital Innovation One em parceria com o Banco Inter. Fomos desafiados a criar uma Página de Login onde os dados inseridos pelo usuário seriam verificados e validados no Banco de Dados. Além disso, também nos foi proposto que desativássemos o botão de login caso os dados não correspondessem com o tipo de campo.",
+            "stacks": "React, Typescript, Styled-Components, React Router DOM, React Hook Forms e Yup",
+            "linkCode": "https://github.com/ssschneider/validacao-com-ts",
+            "linkDeploy": "https://validacao-com-ts.vercel.app/"
+        },
+        {
+            "title": "My Pins",
+            "image": "https://github.com/ssschneider/my-pins/raw/main/public/images/banner.png",
+            "description": "Projeto criado durante o módulo de React do curso de Desenvolvimento Web Front-End, da Descomplica em parceria com o Instituto Nu. Junto ao professor Ayrton Teshima, criamos uma aplicação que permite que o usuário salve o pin em uma pasta, utilizando o localStorage para armazenar todas as informações, funcionando de maneira semelhante ao Pinterest.",
+            "stacks": "React, Javascript, Bootstrap, React Router DOM e React Bootstrap",
+            "linkCode": "https://github.com/ssschneider/my-pins",
+            "linkDeploy": "https://my-pins.vercel.app/"
         }
     ]
 }

@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     box-shadow: var(--default-box-shadow);
     transition: var(--default-transition);
     max-width: 45rem;
+    height: 59.8rem;
     background-color: var(--blue);
 
     &:hover {

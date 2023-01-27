@@ -15,7 +15,7 @@ const ContactPopOver = ({ onClick }: Props) => {
             <SocialMediaWrap>
                 <SocialMediaWrapper href="https://wa.me/5522999405400" target="_blank">
                     <WhatsappLogo size={55} weight="bold"/>
-                    <SocialMediaInfo>+55 22 99940-5400</SocialMediaInfo>
+                    <SocialMediaInfo>Whatsapp</SocialMediaInfo>
                 </SocialMediaWrapper>
 
                 <SocialMediaWrapper href="mailto:mureb_rosa@hotmail.com" target="_blank">

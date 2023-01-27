@@ -1,11 +1,12 @@
 import ProjectCard from "../../components/card"
 import * as projectsFile from "../../projects.json"
-import { SectionTitle, Wrapper } from "./styles"
+import { BtnMoreProjects, SectionTitle, Wrapper } from "./styles"
+import { GithubLogo } from "phosphor-react"
 
 const Projetos = () => {
     return (
         <>
-        <SectionTitle>Projetos</SectionTitle>
+        <SectionTitle>Principais Projetos</SectionTitle>
         <Wrapper>
             {projectsFile.projects.map(project => {
                 return (
@@ -21,6 +22,10 @@ const Projetos = () => {
                 )
             })}
         </Wrapper>
+        <BtnMoreProjects href="https://github.com/ssschneider" target="_blank">
+            <GithubLogo size={24} weight="bold"/>
+            Mais projetos
+        </BtnMoreProjects>
         </>
     )
 }
