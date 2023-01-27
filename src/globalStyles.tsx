@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
         --green: #B9E5A9;
         --pink: #E693DC;
         --blue: #C1D5E6;
-        --default-transition: 0.8s linear;
+        --default-transition: 0.2s linear;
         --default-box-shadow: 6px 6px 0px 2px rgba(0,0,0,1);
         --default-border: 2px solid #000;
         --hover-scale: 0.98;

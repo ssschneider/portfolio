@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "title": "Rastreador de Hábitos",
+            "image": "https://github.com/ssschneider/habit-tracker-ignite/raw/main/assets/banner.svg",
+            "description": "Rastreador de Hábitos construído durante a NLW Setup na trilha Ignite. Nesse projeto contruímos todo o Back-end da aplicação, assim como toda a interface Web e Mobile.",
+            "stacks": "React, React Native, Typescript, ViteJS, Prisma, SQLite, TailwindCSS, Expo, Axios e Fastify",
+            "linkCode": "https://github.com/ssschneider/habit-tracker-ignite",
+            "linkDeploy": "#"
+        },
+        {
+            "title": "Rastreador de Hábitos2",
+            "image": "https://github.com/ssschneider/habit-tracker-ignite/raw/main/assets/banner.svg",
+            "description": "Rastreador de Hábitos construído durante a NLW Setup na trilha Ignite. Nesse projeto contruímos todo o Back-end da aplicação, assim como toda a interface Web e Mobile.",
+            "stacks": "React, React Native, Typescript, ViteJS, Prisma, SQLite, TailwindCSS, Expo, Axios e Fastify",
+            "linkCode": "https://github.com/ssschneider/habit-tracker-ignite",
+            "linkDeploy": "#"
+        }
+    ]
+}
