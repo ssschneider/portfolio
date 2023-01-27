@@ -10,13 +10,18 @@ export const Wrapper = styled.div`
     align-items: flex-end;
     justify-content: center;
     margin: 0 auto 2.4rem;
-    max-width: 80rem;
+    width: 100%;
+    max-width: 80%;
     gap: 0.8rem;
     
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
+
+    @media (max-width: 680px) {
+        align-items: center;
+    }
 
 `
 
@@ -25,6 +30,12 @@ export const SocialMediaWrap = styled.div`
     justify-content: space-around;
     align-items: center;
     gap: 1.6rem;
+
+    @media (max-width: 680px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
 `
 
 export const SocialMediaWrapper = styled.a`
