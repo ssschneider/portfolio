@@ -14,12 +14,14 @@ export const Text = styled.p`
     font-size: 3.2rem;
     text-align: center;
     max-width: 28rem;
+
+    @media (max-width: 430px) {
+        font-size: 2.4rem;
+    }
 `
 
 export const Btn = styled.button`
-    font-size: 2.8rem;
     padding: 2.4rem 5.4rem;
-    text-transform: uppercase;
     border: var(--default-border);
     background-color: var(--blue);
     transition: var(--dafault-transition);
@@ -34,5 +36,9 @@ export const Btn = styled.button`
     &:hover {
         box-shadow: var(--hover-shadow);
         scale: var(--hover-scale);
+    }
+
+    @media (max-width: 430px) {
+        padding: 1.2rem 2.4rem;
     }
 `
