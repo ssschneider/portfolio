@@ -16,17 +16,42 @@ export const Wrapper = styled.div`
         box-shadow: var(--hover-shadow);
         scale: var(--hover-scale);
     }
+
+    @media (max-width: 540px) {
+        max-width: 35rem;
+    }
+
+    @media (max-width: 404px) {
+        max-width: 26rem;
+        height: fit-content;
+    }
 `
 
 export const ProjectImage = styled.img`
     max-width: 41rem;
     margin-bottom: 1.8rem;
     border: var(--default-border);
+
+    @media (max-width: 540px) {
+        max-width: 30rem;
+    }
+
+    @media (max-width: 404px) {
+        max-width: 22rem;
+    }
 `
 
 export const ProjectTitle = styled.h3`
     font-size: 3.2rem;
     margin-bottom: 1.2rem;
+
+    @media (max-width: 540px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 404px) {
+       font-size: 2.4rem;
+    }
 `
 
 export const ProjectDescription = styled.p`
@@ -34,17 +59,27 @@ export const ProjectDescription = styled.p`
     font-weight: 500;
     margin-bottom: 1.2rem;
     text-align: justify;
+
+    @media (max-width: 540px) {
+        max-width: 35rem;
+    }
 `
 
 export const ProjectStacks = styled.h5`
     font-size: 1.6rem;
     margin-bottom: 1.6rem;
+
+    @media (max-width: 404px) {
+       text-align: justify;
+    }
 `
 
 export const ProjectLinks = styled.div`
     display: flex;
     gap: 2.4rem;
     flex-wrap: wrap;
+
+    
 `
 
 export const ProjectBtn = styled.a`
@@ -66,5 +101,13 @@ export const ProjectBtn = styled.a`
         box-shadow: var(--hover-shadow);
         scale: var(--hover-scale);
         cursor: pointer;
+    }
+
+    @media (max-width: 540px) {
+        font-size: 1.6rem;
+    }
+
+    @media (max-width: 404px) {
+        flex-direction: column;
     }
 `

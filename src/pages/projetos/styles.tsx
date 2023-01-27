@@ -3,7 +3,11 @@ import styled from "styled-components";
 export const SectionTitle = styled.h2`
     font-size: 4.8rem;
     text-align: center;
-    margin: 8.8rem;
+    margin: 8.8rem auto;
+
+    @media (max-width: 400px) {
+        font-size: 4rem;
+    }
 `
 
 export const Wrapper = styled.section`
@@ -14,6 +18,10 @@ export const Wrapper = styled.section`
     gap: 3.2rem;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
+
+    @media (max-width: 1180px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 export const BtnMoreProjects = styled.a`
