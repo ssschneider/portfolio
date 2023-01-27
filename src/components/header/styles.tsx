@@ -10,6 +10,13 @@ export const Wrapper = styled.header`
     align-items: center;
     padding: 2.4rem 4.8rem;
     box-shadow: var(--default-box-shadow);
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        gap: 2.4rem;
+        justify-content: center;
+        margin: 3.2rem auto 0;
+    }
 `
 
 export const Btn = styled.button`
@@ -27,10 +34,31 @@ export const Btn = styled.button`
         box-shadow: var(--hover-shadow);
         scale: var(--hover-scale);
     }
+
+    @media (max-width: 1000px) {
+        font-size: 1.8rem;
+        padding: 1.2rem 1.8rem;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 1.2rem;
+        padding: .8rem 1.2rem;
+    }
+
+    @media (max-width: 450px) {
+        font-size: 1.8rem;
+        padding: 1.2rem 1.8rem;
+    }
 `
 
 export const Menu = styled.nav`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+    @media (max-width: 450px) {
+        flex-direction: column;
+        gap: 2.4rem;
+        justify-content: center;
+    }
 `
