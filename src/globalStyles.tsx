@@ -8,6 +8,22 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Inter', sans-serif;
         font-size: 62.5%;
         font-weight: 700;
+        scrollbar-width: thin;
+        scrollbar-color: #E693DC #B9E5A9;
+        
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #E693DC;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #B9E5A9;
+            border-radius: 8px;
+            border: 1px solid #000;
+        }
     }
 
     :root {
