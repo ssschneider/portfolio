@@ -5,7 +5,7 @@ import AboutMeText from "../../components/aboutMeText"
 const Sobre = () => {
     return (
         <Wrapper>
-            <ProfilePhoto src={ProfilePicture}/>
+            <ProfilePhoto src={ProfilePicture} alt="Foto de Sarah Schneider"/>
             <AboutMeText />
         </Wrapper>
     )

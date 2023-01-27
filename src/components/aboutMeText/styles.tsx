@@ -12,6 +12,14 @@ export const Wrapper = styled.div`
 export const SectionTitle = styled.h2`
     font-size: 4.2rem;
     margin-bottom: 3.6rem;
+
+    @media (max-width: 505px) {
+        font-size: 3.2rem;
+    }
+
+    @media (max-width: 376px) {
+        font-size: 2.4rem;
+    }
 `
 
 export const Text = styled.p`

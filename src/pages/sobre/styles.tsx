@@ -7,6 +7,14 @@ export const Wrapper = styled.section`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+    
+    @media(max-width: 1100px){
+        flex-direction: column;
+        justify-content: center;
+        gap: 4.8rem;
+    }
+
 `;
 
 const pop = keyframes`
@@ -37,4 +45,8 @@ export const ProfilePhoto = styled.img`
         -webkit-box-shadow: var(--hover-shadow);
         box-shadow: var(--hover-shadow);
 	}
+
+    @media (max-width: 545px) {
+        max-width: 290px;
+    }
 `;
