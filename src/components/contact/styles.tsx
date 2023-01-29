@@ -5,13 +5,12 @@ export const Wrapper = styled.div`
     box-shadow: var(--default-box-shadow);
     border: 5px solid #000;
     padding: 2.4rem 4.8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: fit-content, 1fr;
+    place-items: center;
     margin: 0 auto 2.4rem;
     width: 100%;
-    max-width: 80%;
+    max-width: 70%;
     gap: 0.8rem;
     
     position: absolute;
@@ -31,10 +30,18 @@ export const SocialMediaWrap = styled.div`
     align-items: center;
     gap: 1.6rem;
 
-    @media (max-width: 680px) {
+    @media (max-width: 800px) {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         place-items: center;
+    }
+
+    @media (max-width: 560px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 420px) {
+        grid-template-columns: 1fr;
     }
 `
 
@@ -65,6 +72,7 @@ export const BtnClose = styled.button`
     background-color: transparent;
     cursor: pointer;
     transition: 0.5s linear;
+    place-self: flex-end;
 
     &:hover {
         scale: 0.8;
