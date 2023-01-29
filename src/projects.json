@@ -10,11 +10,11 @@
         },
         {
             "title": "Portifólio",
-            "image": "#",
+            "image": "https://github.com/ssschneider/portfolio/raw/main/public/images/banner.png",
             "description": "Portifólio pessoal, com design e cógido feitos por mim. Queria que, além de ser algo que me descrevesse, fugisse do padrão de cores fortes e escuras que geralmente são usadas.Explorei bastante ao Git e Figma ao desenvolver, propositalmente, ao longo de vários dias com o objetivo de simular o cotidiano do trabalho em uma empresa.",
             "stacks": "React, Typescript, ViteJS, Styled-Components, React Router DOM",
             "linkCode": "https://github.com/ssschneider/portfolio",
-            "linkDeploy": "#"
+            "linkDeploy": "https://portfolio-lac-sigma-78.vercel.app/"
         },
         {
             "title": "Copa do Mundo Feminina",
