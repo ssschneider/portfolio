@@ -33,7 +33,7 @@ const ContactPopOver = ({ onClick }: Props) => {
                     <SocialMediaInfo>ssschneider</SocialMediaInfo>
                 </SocialMediaWrapper>
 
-                <SocialMediaWrapper href="#" target="_blank">
+                <SocialMediaWrapper href="https://drive.google.com/file/d/1JGPsFXI3CvOI8VvQg8wiABPT07dQwjeI/view?usp=sharing" target="_blank">
                     <DownloadSimple size={55} weight="bold"/>
                     <SocialMediaInfo>Baixar currículo</SocialMediaInfo>
                 </SocialMediaWrapper>
