@@ -46,8 +46,10 @@ export const Btn = styled.button`
     }
 
     @media (max-width: 450px) {
-        font-size: 1.8rem;
-        padding: 1.2rem 1.8rem;
+        font-size: .8rem;
+        padding: .8rem 1.2rem;
+        margin-right: .8rem;
+        box-shadow: var(--hover-shadow);
     }
 `
 
@@ -57,8 +59,6 @@ export const Menu = styled.nav`
     justify-content: flex-end;
 
     @media (max-width: 450px) {
-        flex-direction: column;
-        gap: 2.4rem;
-        justify-content: center;
+        justify-content: space-around;
     }
 `
