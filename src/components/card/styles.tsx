@@ -77,9 +77,7 @@ export const ProjectStacks = styled.h5`
 export const ProjectLinks = styled.div`
     display: flex;
     gap: 2.4rem;
-    flex-wrap: wrap;
-
-    
+    flex-wrap: wrap; 
 `
 
 export const ProjectBtn = styled.a`
